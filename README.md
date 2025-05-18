@@ -21,8 +21,16 @@ A basic notification system built with **Node.js**, **Express**, and **RabbitMQ*
 - **Mock SMS**: Console log simulation
 - **In-App Storage**: JSON file system
 
+## Install dependencies
 
+- npm install
 
+## Run the app
+
+- Start the Express server:
+node app.js
+- Start the queue consumer worker:
+node worker.js
 ---
 
 
